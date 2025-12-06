@@ -5,8 +5,8 @@ echo "🌿 Weed Detection System - GitHub Setup"
 echo "========================================"
 echo ""
 
-# Check if repo name is provided
-REPO_NAME="${1:-weed-detection-yolo-fyp}"
+# Repository name
+REPO_NAME="Weed_Detection_Model"
 
 echo "Repository will be created as: $REPO_NAME"
 echo ""

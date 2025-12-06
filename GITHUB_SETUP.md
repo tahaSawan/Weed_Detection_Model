@@ -27,14 +27,14 @@ The script will guide you through:
 
 1. **Create Repository on GitHub:**
    - Go to https://github.com/new
-   - Repository name: `weed-detection-yolo-fyp` (or your preferred name)
+   - Repository name: `Weed_Detection_Model`
    - Description: "YOLOv5-based real-time weed detection system for agricultural applications"
    - Choose Public or Private
    - **DO NOT** initialize with README, .gitignore, or license (we already have these)
 
 2. **Add Remote and Push:**
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/weed-detection-yolo-fyp.git
+   git remote add origin https://github.com/YOUR_USERNAME/Weed_Detection_Model.git
    git branch -M main
    git push -u origin main
    ```
