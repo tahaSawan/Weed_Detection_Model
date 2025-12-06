@@ -1,8 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model training outputs (keep best.pt, ignore training runs)
+runs/
+wandb/
+*.pt
+!best.pt
+
+# Temporary files
+saved_frames/
+*.log
+*.tmp
+
+# Large datasets - exclude original, keep organized dataset/
+Sample-Dataset/
+
+# Results - exclude most, keep sample_annotated only
+batch_results/*.jpeg
+batch_results/*.json
+batch_results/*.csv
+!batch_results/sample_annotated/
+
+# Problematic images - we'll include this folder
+# problematic_images/  # Commented out to allow inclusion
+
+# Cache
+*.cache
+.cache/
+
+# Colab files
+*.txt
+!requirements.txt
+
+# Other markdown files (keep only essential ones)
 *.md
-Sample-Dataset
-batch_results
-batch_results
-*.pyc
-problematic_images/
-problematic_images/*
-venv
+!README.md
+!QUICK_START.md
+!MODEL_IMPROVEMENT_GUIDE.md
+!GITHUB_SETUP.md
