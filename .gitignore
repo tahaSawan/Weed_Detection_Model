@@ -1,0 +1,8 @@
+*.md
+Sample-Dataset
+batch_results
+batch_results
+*.pyc
+problematic_images/
+problematic_images/*
+venv

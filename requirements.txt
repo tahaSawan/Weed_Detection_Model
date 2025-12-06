@@ -1,0 +1,22 @@
+# YOLOv5 Weed Detection - Requirements
+torch>=1.9.0
+torchvision>=0.10.0
+opencv-python>=4.5.0
+numpy<2.0,>=1.21.0
+Pillow>=10.3.0
+matplotlib>=3.4.0
+PyYAML>=5.4.0
+tqdm>=4.62.0
+ultralytics>=8.0.0
+pandas>=1.2.0
+seaborn>=0.12.0
+gitpython>=3.1.30
+requests>=2.32.2
+setuptools>=30.3.0,<80.0.0
+urllib3>=2.5.0
+
+# For ROS2 integration (optional, install later)
+# rclpy>=3.0.0
+# sensor_msgs>=4.0.0
+# cv_bridge>=3.0.0
+
