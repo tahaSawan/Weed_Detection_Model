@@ -61,3 +61,4 @@ batch_results/*.csv
 !QUICK_START.md
 !MODEL_IMPROVEMENT_GUIDE.md
 !GITHUB_SETUP.md
+!PUSH_TO_GITHUB.md
