@@ -1,4 +1,4 @@
-# 🌿 Weed Detection System - YOLOv5
+# 🌿 Weed Detection System - YOLOv5s
 
 A real-time weed detection system using YOLOv5 for agricultural applications. This project detects weeds in images and video streams, providing accurate center coordinates for each detection.
 
